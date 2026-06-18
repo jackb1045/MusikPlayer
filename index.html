@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>musik</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- Slick Native App Icon Config for iOS Devices -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  
+  <!-- Desktop Icon Config (Favicon for Browser Tabs & Shortcuts) -->
+  <link rel="icon" type="image/png" href="apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Vital framework dependency to read embedded artwork files locally without crashing -->
+  <script src="https://cloudflare.com"></script>
+</head>
+<body>
+
+  <div class="player-chassis">
+    <div class="glass-glare-overlay"></div>
+    
+    <header class="branding-header">
+      <h1>musik</h1>
+      <button id="theme-toggle" class="theme-btn" title="Toggle Theme">🌓</button>
+    </header>
+
+    <!-- Liquid Aqua LCD Monitor Module -->
+    <div class="lcd-display">
+      <div class="glass-glare-overlay"></div>
+      <div class="lcd-flex-wrapper">
+        <div id="album-art-thumb" class="mini-cover"></div>
+        <div class="lcd-text-stack">
+          <div class="marquee-window">
+            <div class="lcd-title" id="control-title">READY TO PLAY</div>
+          </div>
+          <div class="lcd-subtitle" id="control-artist">AERO AUDIO ENGINE</div>
+        </div>
+      </div>
+      
+      <div class="lcd-meta-row">
+        <div id="time-display">00:00 / 00:00</div>
+        <div class="digital-modes">
+          <span id="ind-shuf">SHUF</span>
+          <span id="ind-rep">REP</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Liquid Progress Timeline Slider -->
+    <div class="timeline-container">
+      <input type="range" id="timeline-slider" min="0" max="100" value="0" class="aero-slider">
+    </div>
+
+    <!-- Swipe-Enabled Ribbon Carousel Panel -->
+    <div class="carousel-panel" id="swipe-zone">
+      <button class="arrow-btn" id="prev-btn">&#9664;</button>
+      <div class="carousel-viewport">
+        <div class="carousel-track" id="artist-track"></div>
+      </div>
+      <button class="arrow-btn" id="next-btn">&#9654;</button>
+    </div>
+
+    <!-- Organic Translucent Track Matrix -->
+    <div class="songs-section">
+      <div class="section-header" id="current-artist-heading">TRACK DISCOGRAPHY</div>
+      <div class="songs-list" id="songs-list"></div>
+    </div>
+
+    <!-- Controller Matrix Deck -->
+    <div class="control-deck">
+      <button id="shuffle-btn" class="latch-btn">SHUF</button>
+      <button id="prev-track-btn" class="action-btn">I◄</button>
+      <button id="play-pause-btn" class="action-btn play-accent">►</button>
+      <button id="next-track-btn" class="action-btn">►I</button>
+      <button id="repeat-btn" class="latch-btn">REP</button>
+    </div>
+
+    <!-- Water Orb Volume Module -->
+    <div class="volume-deck">
+      <span class="vol-tag">VOL</span>
+      <input type="range" id="volume-slider" min="0" max="1" step="0.05" value="0.8" class="aero-slider">
+    </div>
+
+    <audio id="audio-element" preload="metadata"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
