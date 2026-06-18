@@ -1099,6 +1099,7 @@ function playSong(song) {
   currentlyPlayingTrack = song;
   audioElement.src = song.audioUrl;
 
+  // Soft text transition animation sequence
   const lcdContainer = document.querySelector('.lcd-display');
   if (lcdContainer) lcdContainer.classList.add('pixel-swap-active');
 
@@ -1108,25 +1109,62 @@ function playSong(song) {
     if (lcdContainer) lcdContainer.classList.remove('pixel-swap-active');
   }, 150);
 
-  // Instant pre-compiled layout mapper
+  // Instantly map pre-compiled native album artwork data securely from Python
   const artworkPlaceholder = document.getElementById('album-art-thumb');
   if (artworkPlaceholder) {
     if (song.image && song.image !== "") {
       artworkPlaceholder.style.backgroundImage = `url('${song.image}')`;
       artworkPlaceholder.innerHTML = "";
     } else {
-      // Sleek native music note fallback placeholder icon layout
       artworkPlaceholder.style.backgroundImage = 'none';
       artworkPlaceholder.innerHTML = "🎵";
     }
     artworkPlaceholder.classList.add('has-art');
   }
 
-  if (isShuffle && !shuffleHistory.includes(song.audioUrl)) { shuffleHistory.push(song.audioUrl); }
+  // ⚡ LOCK SCREEN INTEGRATION ENGINE (MediaSession API)
+  if ('mediaSession' in navigator) {
+    // Determine the album artwork fallback structure
+    let artSource = song.image && song.image !== "" ? song.image : 'apple-touch-icon.png';
+    
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: song.title,
+      artist: song.artistName,
+      album: "musik Player",
+      artwork: [
+        { src: artSource, sizes: '512x512', type: 'image/png' },
+        { src: artSource, sizes: '180x180', type: 'image/png' }
+      ]
+    });
+
+    // Wire up iPhone hardware lock screen buttons to match your app logic
+    navigator.mediaSession.setActionHandler('play', () => {
+      audioElement.play();
+      playPauseBtn.innerHTML = "||";
+    });
+    navigator.mediaSession.setActionHandler('pause', () => {
+      audioElement.pause();
+      playPauseBtn.innerHTML = "►";
+    });
+    navigator.mediaSession.setActionHandler('previoustrack', () => skipTrack(-1));
+    navigator.mediaSession.setActionHandler('nexttrack', () => skipTrack(1));
+  }
+
+  if (isShuffle && !shuffleHistory.includes(song.audioUrl)) {
+    shuffleHistory.push(song.audioUrl);
+  }
+
   renderSongsList();
   audioElement.play();
   playPauseBtn.innerHTML = "||"; 
 }
+
+
+  if (isShuffle && !shuffleHistory.includes(song.audioUrl)) { shuffleHistory.push(song.audioUrl); }
+  renderSongsList();
+  audioElement.play();
+  playPauseBtn.innerHTML = "||"; 
+
 function skipTrack(direction) {
   const activeSongsPool = musicData[currentArtistIndex].songs;
   if (!activeSongsPool || activeSongsPool.length === 0) return;
