@@ -6,7 +6,6 @@
   <title>musik</title>
   <link rel="stylesheet" href="style.css">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" href="apple-touch-icon.png">
@@ -17,21 +16,7 @@
     <div class="glass-glare-overlay"></div>
     
     <header class="branding-header">
-      <h1>musik</h1>
-      <div class="theme-management-panel">
-        <select id="theme-select" class="theme-select-dropdown">
-          <option value="dark">Aqua Dark</option>
-          <option value="light">Aurora Light</option>
-          <option value="responsive">Dynamic Art</option>
-          <option value="red">Ruby Glass</option>
-          <option value="orange">Sun Gel</option>
-          <option value="yellow">Amber Glow</option>
-          <option value="green">Lime Bio</option>
-          <option value="blue">Deep Cobalt</option>
-          <option value="indigo">Velvet Iris</option>
-          <option value="violet">Neon Orchid</option>
-        </select>
-      </div>
+      <h1>Jacks Music Player</h1>
     </header>
 
     <div class="lcd-display">
@@ -69,7 +54,10 @@
     <div class="songs-section">
       <div class="section-header-wrapper">
         <h4 id="current-artist-heading">TRACK DISCOGRAPHY</h4>
-        <button id="create-playlist-btn" class="playlist-create-btn">＋ New Playlist</button>
+        <div style="display:flex;gap:6px;">
+          <button id="queue-btn" class="playlist-create-btn">≡ Queue</button>
+          <button id="create-playlist-btn" class="playlist-create-btn">＋ New Playlist</button>
+        </div>
       </div>
       <div class="songs-list" id="songs-list"></div>
     </div>
@@ -116,6 +104,17 @@
         <div class="modal-btn-row">
           <button id="cancel-delete-btn" class="modal-btn">Cancel</button>
           <button id="confirm-delete-btn" class="modal-btn delete-accent">Delete</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="queue-modal" class="aero-modal">
+      <div class="modal-content-chassis queue-chassis">
+        <h3>Up Next</h3>
+        <div id="queue-list" class="queue-list"></div>
+        <div class="modal-btn-row" style="margin-top:14px;">
+          <button id="clear-queue-btn" class="modal-btn delete-accent">Clear</button>
+          <button id="close-queue-btn" class="modal-btn">Done</button>
         </div>
       </div>
     </div>

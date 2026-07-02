@@ -1,0 +1,591 @@
+[
+  {
+    "artist": "Sublime",
+    "songs": [
+      {
+        "title": "Ensenada",
+        "audioUrl": "music/01 - Sublime - Ensenada.mp3",
+        "image": "images/covers/54b813448d1f9fb5b03011f2b90d52e7.jpg"
+      },
+      {
+        "title": "Garden Grove",
+        "audioUrl": "music/01 - Sublime - Garden Grove.mp3",
+        "image": "images/covers/6270162f6b83b60582eb90e27648fc93.jpg"
+      },
+      {
+        "title": "40oz. To Freedom",
+        "audioUrl": "music/02 - Sublime - 40oz. To Freedom.mp3",
+        "image": "images/covers/55cb007d326c5a55566354e4e6dfbe36.jpg"
+      },
+      {
+        "title": "What I Got",
+        "audioUrl": "music/02 - Sublime - What I Got.mp3",
+        "image": "images/covers/6270162f6b83b60582eb90e27648fc93.jpg"
+      },
+      {
+        "title": "Wizard",
+        "audioUrl": "music/02 - Sublime - Wizard.mp3",
+        "image": "images/covers/54b813448d1f9fb5b03011f2b90d52e7.jpg"
+      },
+      {
+        "title": "Can\u2019t Miss You",
+        "audioUrl": "music/03 - Sublime - Can\u2019t Miss You.mp3",
+        "image": "images/covers/54b813448d1f9fb5b03011f2b90d52e7.jpg"
+      },
+      {
+        "title": "Smoke Two Joints",
+        "audioUrl": "music/03 - Sublime - Smoke Two Joints.mp3",
+        "image": "images/covers/55cb007d326c5a55566354e4e6dfbe36.jpg"
+      },
+      {
+        "title": "Wrong Way",
+        "audioUrl": "music/03 - Sublime - Wrong Way.mp3",
+        "image": "images/covers/6270162f6b83b60582eb90e27648fc93.jpg"
+      },
+      {
+        "title": "Same In The End",
+        "audioUrl": "music/04 - Sublime - Same In The End.mp3",
+        "image": "images/covers/6270162f6b83b60582eb90e27648fc93.jpg"
+      },
+      {
+        "title": "April 29, 1992 (Miami)",
+        "audioUrl": "music/05 - Sublime - April 29, 1992 (Miami).mp3",
+        "image": "images/covers/6270162f6b83b60582eb90e27648fc93.jpg"
+      },
+      {
+        "title": "Don't Push",
+        "audioUrl": "music/05 - Sublime - Don't Push.mp3",
+        "image": "images/covers/55cb007d326c5a55566354e4e6dfbe36.jpg"
+      },
+      {
+        "title": "Santeria",
+        "audioUrl": "music/06 - Sublime - Santeria.mp3",
+        "image": "images/covers/6270162f6b83b60582eb90e27648fc93.jpg"
+      },
+      {
+        "title": "Badfish",
+        "audioUrl": "music/07 - Sublime - Badfish.mp3",
+        "image": "images/covers/55cb007d326c5a55566354e4e6dfbe36.jpg"
+      },
+      {
+        "title": "Personal Hell",
+        "audioUrl": "music/07 - Sublime - Personal Hell.mp3",
+        "image": "images/covers/54b813448d1f9fb5b03011f2b90d52e7.jpg"
+      },
+      {
+        "title": "Seed",
+        "audioUrl": "music/07 - Sublime - Seed.mp3",
+        "image": "images/covers/6270162f6b83b60582eb90e27648fc93.jpg"
+      },
+      {
+        "title": "F.T.R.",
+        "audioUrl": "music/08 - Sublime - F.T.R..mp3",
+        "image": "images/covers/54b813448d1f9fb5b03011f2b90d52e7.jpg"
+      },
+      {
+        "title": "Jailhouse",
+        "audioUrl": "music/08 - Sublime - Jailhouse.mp3",
+        "image": "images/covers/6270162f6b83b60582eb90e27648fc93.jpg"
+      },
+      {
+        "title": "Let's Go Get Stoned",
+        "audioUrl": "music/08 - Sublime - Let's Go Get Stoned.mp3",
+        "image": "images/covers/55cb007d326c5a55566354e4e6dfbe36.jpg"
+      },
+      {
+        "title": "Evil Men",
+        "audioUrl": "music/09 - Sublime - Evil Men.mp3",
+        "image": "images/covers/54b813448d1f9fb5b03011f2b90d52e7.jpg"
+      },
+      {
+        "title": "Burritos",
+        "audioUrl": "music/12 - Sublime - Burritos.mp3",
+        "image": "images/covers/6270162f6b83b60582eb90e27648fc93.jpg"
+      },
+      {
+        "title": "Gangstalker",
+        "audioUrl": "music/13 - Sublime - Gangstalker.mp3",
+        "image": "images/covers/54b813448d1f9fb5b03011f2b90d52e7.jpg"
+      },
+      {
+        "title": "Get Ready",
+        "audioUrl": "music/14 - Sublime - Get Ready.mp3",
+        "image": "images/covers/6270162f6b83b60582eb90e27648fc93.jpg"
+      },
+      {
+        "title": "Caress Me Down",
+        "audioUrl": "music/15 - Sublime - Caress Me Down.mp3",
+        "image": "images/covers/6270162f6b83b60582eb90e27648fc93.jpg"
+      },
+      {
+        "title": "Doin' Time",
+        "audioUrl": "music/17 - Sublime - Doin' Time.mp3",
+        "image": "images/covers/6270162f6b83b60582eb90e27648fc93.jpg"
+      },
+      {
+        "title": "What For",
+        "audioUrl": "music/17 - Sublime - What For.mp3",
+        "image": "images/covers/54b813448d1f9fb5b03011f2b90d52e7.jpg"
+      },
+      {
+        "title": "Date Rape",
+        "audioUrl": "music/18 - Sublime - Date Rape.mp3",
+        "image": "images/covers/55cb007d326c5a55566354e4e6dfbe36.jpg"
+      }
+    ]
+  },
+  {
+    "artist": "Pantera",
+    "songs": [
+      {
+        "title": "Cowboys from Hell",
+        "audioUrl": "music/01 - Pantera - Cowboys from Hell.mp3",
+        "image": "images/covers/f7e5dce47aeef480f57f783ade2db7f9.jpg"
+      },
+      {
+        "title": "Mouth for War",
+        "audioUrl": "music/01 - Pantera - Mouth for War.mp3",
+        "image": "images/covers/4032be15bd12ba99532399c4b14c802a.jpg"
+      },
+      {
+        "title": "A New Level",
+        "audioUrl": "music/02 - Pantera - A New Level.mp3",
+        "image": "images/covers/4032be15bd12ba99532399c4b14c802a.jpg"
+      },
+      {
+        "title": "Becoming",
+        "audioUrl": "music/02 - Pantera - Becoming.mp3",
+        "image": "images/covers/8c1d88aad2014c301b33a2a224331d8b.jpg"
+      },
+      {
+        "title": "Goddamn Electric",
+        "audioUrl": "music/02 - Pantera - Goddamn Electric.mp3",
+        "image": "images/covers/4e5676e554872cb4632708c2f30486be.jpg"
+      },
+      {
+        "title": "5 Minutes Alone",
+        "audioUrl": "music/03 - Pantera - 5 Minutes Alone.mp3",
+        "image": "images/covers/8c1d88aad2014c301b33a2a224331d8b.jpg"
+      },
+      {
+        "title": "Walk",
+        "audioUrl": "music/03 - Pantera - Walk.mp3",
+        "image": "images/covers/4032be15bd12ba99532399c4b14c802a.jpg"
+      },
+      {
+        "title": "10's (2016 Remaster)",
+        "audioUrl": "music/04 - Pantera - 10's (2016 Remaster).mp3",
+        "image": "images/covers/8712f56a58d2f8496310650d89ed0e95.jpg"
+      },
+      {
+        "title": "I'm Broken",
+        "audioUrl": "music/04 - Pantera - I'm Broken.mp3",
+        "image": "images/covers/8c1d88aad2014c301b33a2a224331d8b.jpg"
+      },
+      {
+        "title": "Revolution Is My Name",
+        "audioUrl": "music/05 - Pantera - Revolution Is My Name.mp3",
+        "image": "images/covers/4e5676e554872cb4632708c2f30486be.jpg"
+      },
+      {
+        "title": "This Love",
+        "audioUrl": "music/05 - Pantera - This Love.mp3",
+        "image": "images/covers/4032be15bd12ba99532399c4b14c802a.jpg"
+      },
+      {
+        "title": "Domination",
+        "audioUrl": "music/06 - Pantera - Domination.mp3",
+        "image": "images/covers/f7e5dce47aeef480f57f783ade2db7f9.jpg"
+      },
+      {
+        "title": "Floods (2016 Remaster)",
+        "audioUrl": "music/09 - Pantera - Floods (2016 Remaster).mp3",
+        "image": "images/covers/8712f56a58d2f8496310650d89ed0e95.jpg"
+      },
+      {
+        "title": "By Demons Be Driven",
+        "audioUrl": "music/10 - Pantera - By Demons Be Driven.mp3",
+        "image": "images/covers/4032be15bd12ba99532399c4b14c802a.jpg"
+      },
+      {
+        "title": "Hollow",
+        "audioUrl": "music/11 - Pantera - Hollow.mp3",
+        "image": "images/covers/4032be15bd12ba99532399c4b14c802a.jpg"
+      }
+    ]
+  },
+  {
+    "artist": "Limp Bizkit",
+    "songs": [
+      {
+        "title": "Hot Dog",
+        "audioUrl": "music/02 - Limp Bizkit - Hot Dog.mp3",
+        "image": "images/covers/99f5d9319570056b60f75b3fe23004a8.jpg"
+      },
+      {
+        "title": "Just Like This",
+        "audioUrl": "music/02 - Limp Bizkit - Just Like This.mp3",
+        "image": "images/covers/297f986b205483fa03cae0cf2a9b95d8.jpg"
+      },
+      {
+        "title": "Counterfeit (Album Version (Explicit))",
+        "audioUrl": "music/03 - Limp Bizkit - Counterfeit (Album Version (Explicit)).mp3",
+        "image": "images/covers/9154316ed16298a2aff1c4c103627463.jpg"
+      },
+      {
+        "title": "My Generation",
+        "audioUrl": "music/03 - Limp Bizkit - My Generation.mp3",
+        "image": "images/covers/99f5d9319570056b60f75b3fe23004a8.jpg"
+      },
+      {
+        "title": "Full Nelson",
+        "audioUrl": "music/04 - Limp Bizkit - Full Nelson.mp3",
+        "image": "images/covers/99f5d9319570056b60f75b3fe23004a8.jpg"
+      },
+      {
+        "title": "My Way",
+        "audioUrl": "music/05 - Limp Bizkit - My Way.mp3",
+        "image": "images/covers/99f5d9319570056b60f75b3fe23004a8.jpg"
+      },
+      {
+        "title": "I'm Broke",
+        "audioUrl": "music/06 - Limp Bizkit - I'm Broke.mp3",
+        "image": "images/covers/297f986b205483fa03cae0cf2a9b95d8.jpg"
+      },
+      {
+        "title": "Rollin' (Air Raid Vehicle)",
+        "audioUrl": "music/06 - Limp Bizkit - Rollin' (Air Raid Vehicle).mp3",
+        "image": "images/covers/99f5d9319570056b60f75b3fe23004a8.jpg"
+      },
+      {
+        "title": "Livin' It Up",
+        "audioUrl": "music/07 - Limp Bizkit - Livin' It Up.mp3",
+        "image": "images/covers/99f5d9319570056b60f75b3fe23004a8.jpg"
+      },
+      {
+        "title": "Stalemate (Album Version)",
+        "audioUrl": "music/07 - Limp Bizkit - Stalemate (Album Version).mp3",
+        "image": "images/covers/9154316ed16298a2aff1c4c103627463.jpg"
+      },
+      {
+        "title": "9 Teen 90 Nine",
+        "audioUrl": "music/09 - Limp Bizkit - 9 Teen 90 Nine.mp3",
+        "image": "images/covers/297f986b205483fa03cae0cf2a9b95d8.jpg"
+      },
+      {
+        "title": "Faith",
+        "audioUrl": "music/09 - Limp Bizkit - Faith.mp3",
+        "image": "images/covers/9154316ed16298a2aff1c4c103627463.jpg"
+      },
+      {
+        "title": "Take A Look Around",
+        "audioUrl": "music/10 - Limp Bizkit - Take A Look Around.mp3",
+        "image": "images/covers/99f5d9319570056b60f75b3fe23004a8.jpg"
+      },
+      {
+        "title": "Trust?",
+        "audioUrl": "music/11 - Limp Bizkit - Trust_.mp3",
+        "image": "images/covers/297f986b205483fa03cae0cf2a9b95d8.jpg"
+      },
+      {
+        "title": "Leech (Demo Version)",
+        "audioUrl": "music/12 - Limp Bizkit - Leech (Demo Version).mp3",
+        "image": "images/covers/9154316ed16298a2aff1c4c103627463.jpg"
+      }
+    ]
+  },
+  {
+    "artist": "TOOL",
+    "songs": [
+      {
+        "title": "The Pot",
+        "audioUrl": "music/00 - TOOL - The Pot.mp3",
+        "image": "images/covers/a04971772a14de3eebf775f6af32fdc5.jpg"
+      },
+      {
+        "title": "Stinkfist",
+        "audioUrl": "music/01 - TOOL - Stinkfist.mp3",
+        "image": "images/covers/d329fbe0823573254ba58ae5faef863d.jpg"
+      },
+      {
+        "title": "Vicarious",
+        "audioUrl": "music/01 - TOOL - Vicarious.mp3",
+        "image": "images/covers/a04971772a14de3eebf775f6af32fdc5.jpg"
+      },
+      {
+        "title": "Eulogy",
+        "audioUrl": "music/02 - TOOL - Eulogy.mp3",
+        "image": "images/covers/d329fbe0823573254ba58ae5faef863d.jpg"
+      },
+      {
+        "title": "Jambi",
+        "audioUrl": "music/02 - TOOL - Jambi.mp3",
+        "image": "images/covers/a04971772a14de3eebf775f6af32fdc5.jpg"
+      },
+      {
+        "title": "Prison Sex",
+        "audioUrl": "music/02 - TOOL - Prison Sex.mp3",
+        "image": "images/covers/06d498ab930a923371ca6fea0ad36c6d.jpg"
+      },
+      {
+        "title": "H.",
+        "audioUrl": "music/03 - TOOL - H..mp3",
+        "image": "images/covers/d329fbe0823573254ba58ae5faef863d.jpg"
+      },
+      {
+        "title": "Sober",
+        "audioUrl": "music/03 - TOOL - Sober.mp3",
+        "image": "images/covers/06d498ab930a923371ca6fea0ad36c6d.jpg"
+      },
+      {
+        "title": "Forty Six & 2",
+        "audioUrl": "music/05 - TOOL - Forty Six & 2.mp3",
+        "image": "images/covers/d329fbe0823573254ba58ae5faef863d.jpg"
+      },
+      {
+        "title": "Schism",
+        "audioUrl": "music/05 - TOOL - Schism.mp3",
+        "image": "images/covers/c8bd981a4c3236293f6b9a2f47c13012.jpg"
+      },
+      {
+        "title": "Parabola",
+        "audioUrl": "music/07 - TOOL - Parabola.mp3",
+        "image": "images/covers/c8bd981a4c3236293f6b9a2f47c13012.jpg"
+      },
+      {
+        "title": "4\u00b0",
+        "audioUrl": "music/08 - TOOL - 4\u00b0.mp3",
+        "image": "images/covers/06d498ab930a923371ca6fea0ad36c6d.jpg"
+      },
+      {
+        "title": "Lateralus",
+        "audioUrl": "music/09 - TOOL - Lateralus.mp3",
+        "image": "images/covers/c8bd981a4c3236293f6b9a2f47c13012.jpg"
+      }
+    ]
+  },
+  {
+    "artist": "Korn",
+    "songs": [
+      {
+        "title": "Blind",
+        "audioUrl": "music/01 - Korn - Blind.mp3",
+        "image": "images/covers/kornselftitled.png"
+      },
+      {
+        "title": "Falling Away from Me",
+        "audioUrl": "music/02 - Korn - Falling Away from Me.mp3",
+        "image": "images/covers/8473d5eb4f12b8c824c9b9722e0db2d5.jpg"
+      },
+      {
+        "title": "Freak On a Leash",
+        "audioUrl": "music/02 - Korn - Freak On a Leash.mp3",
+        "image": "images/covers/8d197cc31d6a332bcad46e44d8a43807.jpg"
+      },
+      {
+        "title": "Got the Life",
+        "audioUrl": "music/03 - Korn - Got the Life.mp3",
+        "image": "images/covers/8d197cc31d6a332bcad46e44d8a43807.jpg"
+      },
+      {
+        "title": "Need To",
+        "audioUrl": "music/03 - Korn - Need To.mp3",
+        "image": "images/covers/kornselftitled.png"
+      },
+      {
+        "title": "Make Me Bad",
+        "audioUrl": "music/06 - Korn - Make Me Bad.mp3",
+        "image": "images/covers/8473d5eb4f12b8c824c9b9722e0db2d5.jpg"
+      },
+      {
+        "title": "Predictable",
+        "audioUrl": "music/08 - Korn - Predictable.mp3",
+        "image": "images/covers/kornselftitled.png"
+      },
+      {
+        "title": "Fake",
+        "audioUrl": "music/09 - Korn - Fake.mp3",
+        "image": "images/covers/kornselftitled.png"
+      },
+      {
+        "title": "A.D.I.D.A.S.",
+        "audioUrl": "music/11 - Korn - A.D.I.D.A.S..mp3",
+        "image": "images/covers/342d52859f70668c934a4bd336ae9e03.jpg"
+      }
+    ]
+  },
+  {
+    "artist": "The Offspring",
+    "songs": [
+      {
+        "title": "The Meaning Of Life",
+        "audioUrl": "music/02 - The Offspring - The Meaning Of Life.mp3",
+        "image": "images/covers/f3eddc3624475b0e47d3091f809c85a0.jpg"
+      },
+      {
+        "title": "Bad Habit",
+        "audioUrl": "music/03 - The Offspring - Bad Habit.mp3",
+        "image": "images/covers/offspring-smash-lp-a__79856.jpg"
+      },
+      {
+        "title": "Mota",
+        "audioUrl": "music/03 - The Offspring - Mota.mp3",
+        "image": "images/covers/f3eddc3624475b0e47d3091f809c85a0.jpg"
+      },
+      {
+        "title": "Pretty Fly (For A White Guy)",
+        "audioUrl": "music/04 - The Offspring - Pretty Fly (For A White Guy).mp3",
+        "image": "images/covers/b2c93e4bd3235a53c33e93d96c06899e.jpg"
+      },
+      {
+        "title": "Come Out and Play",
+        "audioUrl": "music/07 - The Offspring - Come Out and Play.mp3",
+        "image": "images/covers/offspring-smash-lp-a__79856.jpg"
+      },
+      {
+        "title": "Gone Away (1997)",
+        "audioUrl": "music/07 - The Offspring - Gone Away (1997).mp3",
+        "image": "images/covers/f3eddc3624475b0e47d3091f809c85a0.jpg"
+      },
+      {
+        "title": "Self Esteem",
+        "audioUrl": "music/08 - The Offspring - Self Esteem.mp3",
+        "image": "images/covers/offspring-smash-lp-a__79856.jpg"
+      },
+      {
+        "title": "All I Want",
+        "audioUrl": "music/10 - The Offspring - All I Want.mp3",
+        "image": "images/covers/f3eddc3624475b0e47d3091f809c85a0.jpg"
+      },
+      {
+        "title": "No Brakes",
+        "audioUrl": "music/10 - The Offspring - No Brakes.mp3",
+        "image": "images/covers/b2c93e4bd3235a53c33e93d96c06899e.jpg"
+      }
+    ]
+  },
+  {
+    "artist": "Everclear",
+    "songs": [
+      {
+        "title": "So Much For The Afterglow",
+        "audioUrl": "music/01 - Everclear - So Much For The Afterglow.mp3",
+        "image": "images/covers/a1883423f83bc9f500909eed5e195ee0.jpg"
+      },
+      {
+        "title": "Heroin Girl",
+        "audioUrl": "music/02 - Everclear - Heroin Girl.mp3",
+        "image": "images/covers/d834bca5d3c3906740e70d77f8873207.jpg"
+      },
+      {
+        "title": "AM Radio",
+        "audioUrl": "music/03 - Everclear - AM Radio.mp3",
+        "image": "images/covers/dfab6da048347e23f30e3926d1555819.jpg"
+      },
+      {
+        "title": "Brown Eyed Girl",
+        "audioUrl": "music/04 - Everclear - Brown Eyed Girl.mp3",
+        "image": "images/covers/dfab6da048347e23f30e3926d1555819.jpg"
+      },
+      {
+        "title": "Santa Monica",
+        "audioUrl": "music/04 - Everclear - Santa Monica.mp3",
+        "image": "images/covers/d834bca5d3c3906740e70d77f8873207.jpg"
+      },
+      {
+        "title": "I Will Buy You A New Life",
+        "audioUrl": "music/05 - Everclear - I Will Buy You A New Life.mp3",
+        "image": "images/covers/a1883423f83bc9f500909eed5e195ee0.jpg"
+      },
+      {
+        "title": "Father Of Mine",
+        "audioUrl": "music/06 - Everclear - Father Of Mine.mp3",
+        "image": "images/covers/a1883423f83bc9f500909eed5e195ee0.jpg"
+      },
+      {
+        "title": "One Hit Wonder",
+        "audioUrl": "music/07 - Everclear - One Hit Wonder.mp3",
+        "image": "images/covers/a1883423f83bc9f500909eed5e195ee0.jpg"
+      }
+    ]
+  },
+  {
+    "artist": "Incubus",
+    "songs": [
+      {
+        "title": "New Skin",
+        "audioUrl": "music/03 - Incubus - New Skin.mp3",
+        "image": "images/covers/0729c4f025d5b07fec3b22ffaa8f4063.jpg"
+      },
+      {
+        "title": "Glass",
+        "audioUrl": "music/05 - Incubus - Glass.mp3",
+        "image": "images/covers/0729c4f025d5b07fec3b22ffaa8f4063.jpg"
+      },
+      {
+        "title": "A Certain Shade of Green",
+        "audioUrl": "music/07 - Incubus - A Certain Shade of Green.mp3",
+        "image": "images/covers/0729c4f025d5b07fec3b22ffaa8f4063.jpg"
+      },
+      {
+        "title": "Favorite Things",
+        "audioUrl": "music/08 - Incubus - Favorite Things.mp3",
+        "image": "images/covers/0729c4f025d5b07fec3b22ffaa8f4063.jpg"
+      },
+      {
+        "title": "Deep Inside",
+        "audioUrl": "music/11 - Incubus - Deep Inside.mp3",
+        "image": "images/covers/0729c4f025d5b07fec3b22ffaa8f4063.jpg"
+      }
+    ]
+  },
+  {
+    "artist": "System Of A Down",
+    "songs": [
+      {
+        "title": "Deer Dance",
+        "audioUrl": "music/03 - System Of A Down - Deer Dance.mp3",
+        "image": "images/covers/soadtox.jpg"
+      },
+      {
+        "title": "Chop Suey!",
+        "audioUrl": "music/06 - System Of A Down - Chop Suey!.mp3",
+        "image": "images/covers/soadtox.jpg"
+      },
+      {
+        "title": "Toxicity",
+        "audioUrl": "music/12 - System Of A Down - Toxicity.mp3",
+        "image": "images/covers/soadtox.jpg"
+      },
+      {
+        "title": "Aerials",
+        "audioUrl": "music/14 - System Of A Down - Aerials.mp3",
+        "image": "images/covers/soadtox.jpg"
+      }
+    ]
+  },
+  {
+    "artist": "SlipKnot",
+    "songs": [
+      {
+        "title": "Eyeless",
+        "audioUrl": "music/03 - Slipknot - Eyeless.mp3",
+        "image": "images/covers/f57a1fa72311f050a97de498751af945.jpg",
+        "originalArtist": "Slipknot"
+      },
+      {
+        "title": "Wait and Bleed",
+        "audioUrl": "music/04 - Slipknot - Wait and Bleed.mp3",
+        "image": "images/covers/f57a1fa72311f050a97de498751af945.jpg",
+        "originalArtist": "Slipknot"
+      },
+      {
+        "title": "No Life",
+        "audioUrl": "music/11 - Slipknot - No Life.mp3",
+        "image": "images/covers/f57a1fa72311f050a97de498751af945.jpg",
+        "originalArtist": "Slipknot"
+      }
+
+    ]
+  }
+]

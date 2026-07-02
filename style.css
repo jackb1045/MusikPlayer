@@ -89,7 +89,6 @@ body {
     radial-gradient(circle at 75% 20%, var(--bg-radial-1) 0%, transparent 45%),
     radial-gradient(circle at 20% 80%, var(--bg-radial-2) 0%, transparent 50%),
     linear-gradient(135deg, var(--deep-blue-bg) 0%, #01050a 100%);
-  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -97,7 +96,7 @@ body {
   padding: 20px;
   overflow: hidden;
   color: var(--text-primary);
-  transition: background 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: background-color 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* ==========================================================================
@@ -132,7 +131,7 @@ body {
 
 .branding-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 20px;
   position: relative;
@@ -149,21 +148,101 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.theme-select-dropdown {
-  background: rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  padding: 6px 12px;
-  border-radius: 12px;
-  color: #fff;
-  font-size: 0.8rem;
-  outline: none;
-  cursor: pointer;
-  box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+/* ==========================================================================
+   QUEUE PANEL
+   ========================================================================== */
+.queue-chassis {
+  max-width: 340px;
+  max-height: 70vh;
+  display: flex;
+  flex-direction: column;
 }
-body.light-theme .theme-select-dropdown {
-  background: rgba(255, 255, 255, 0.7);
-  border-color: rgba(0, 0, 0, 0.15);
-  color: #192d3d;
+
+.queue-list {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 50vh;
+  min-height: 60px;
+}
+.queue-list::-webkit-scrollbar { width: 4px; }
+.queue-list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 10px; }
+
+.queue-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 6px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid transparent;
+  cursor: grab;
+  touch-action: none;
+}
+.queue-row:active { cursor: grabbing; }
+.queue-row.queue-dragging {
+  opacity: 0.4;
+  border-color: rgba(0,242,254,0.3);
+}
+.queue-row.queue-drag-over {
+  border-color: rgba(0,242,254,0.6);
+  background: rgba(0,242,254,0.08);
+}
+.queue-row.queue-now-playing {
+  background: rgba(0,240,255,0.1);
+  border-color: rgba(0,242,254,0.25);
+}
+
+.queue-drag-handle {
+  color: var(--text-muted);
+  opacity: 0.4;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+  padding: 0 2px;
+  cursor: grab;
+}
+
+.queue-track-info {
+  flex: 1;
+  overflow: hidden;
+}
+.queue-track-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text-primary);
+}
+.queue-row.queue-now-playing .queue-track-title { color: var(--mode-active-text); }
+.queue-track-artist {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.queue-remove-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  cursor: pointer;
+  opacity: 0.4;
+  flex-shrink: 0;
+  padding: 2px 4px;
+  border-radius: 4px;
+  line-height: 1;
+}
+.queue-row:hover .queue-remove-btn { opacity: 0.9; color: #ff4757; }
+
+.queue-empty-msg {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  padding: 20px 0;
+  opacity: 0.6;
 }
 
 /* ==========================================================================
@@ -548,6 +627,83 @@ body.light-theme .modal-btn { background: rgba(0,30,60,0.05); border-color: rgba
 
 .confirm-accent { background: linear-gradient(180deg, #1e90ff 0%, #3742fa 100%); border-color: rgba(0,0,0,0.2); }
 .delete-accent { background: linear-gradient(180deg, #ff4757 0%, #c0392b 100%); border-color: rgba(0,0,0,0.2); color: white; }
+
+/* ==========================================================================
+   SWIPE-TO-QUEUE
+   ========================================================================== */
+.swipe-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 4px;
+}
+
+.swipe-reveal {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0, 220, 120, 0.85) 0%, rgba(0, 180, 100, 0.6) 100%);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-left: 16px;
+  opacity: 0;
+  border-radius: 8px;
+  pointer-events: none;
+  transition: background 0.15s ease;
+}
+.swipe-reveal-ready {
+  background: linear-gradient(90deg, rgba(0, 230, 130, 1) 0%, rgba(0, 200, 110, 0.85) 100%);
+}
+.swipe-reveal-confirm {
+  background: linear-gradient(90deg, #00ff88 0%, #00cc66 100%);
+}
+.swipe-reveal-icon {
+  font-size: 1.1rem;
+  color: #fff;
+}
+.swipe-reveal-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* Row inside swipe-wrap has no bottom margin (wrap handles it) */
+.swipe-wrap .song-row {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.02);
+  will-change: transform;
+}
+
+/* ── Queue added toast ── */
+.queue-toast {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%) translateY(12px);
+  background: rgba(0, 200, 100, 0.92);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 7px 16px;
+  border-radius: 20px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 200;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  max-width: 85%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.queue-toast-show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
 
 /* ==========================================================================
    ANIMATIONS

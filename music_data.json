@@ -298,6 +298,11 @@
     "artist": "TOOL",
     "songs": [
       {
+        "title": "The Pot",
+        "audioUrl": "music/00 - TOOL - The Pot.mp3",
+        "image": "images/covers/a04971772a14de3eebf775f6af32fdc5.jpg"
+      },
+      {
         "title": "Stinkfist",
         "audioUrl": "music/01 - TOOL - Stinkfist.mp3",
         "image": "images/covers/d329fbe0823573254ba58ae5faef863d.jpg"
@@ -305,7 +310,7 @@
       {
         "title": "Vicarious",
         "audioUrl": "music/01 - TOOL - Vicarious.mp3",
-        "image": ""
+        "image": "images/covers/a04971772a14de3eebf775f6af32fdc5.jpg"
       },
       {
         "title": "Eulogy",
@@ -315,7 +320,7 @@
       {
         "title": "Jambi",
         "audioUrl": "music/02 - TOOL - Jambi.mp3",
-        "image": ""
+        "image": "images/covers/a04971772a14de3eebf775f6af32fdc5.jpg"
       },
       {
         "title": "Prison Sex",
@@ -356,6 +361,106 @@
         "title": "Lateralus",
         "audioUrl": "music/09 - TOOL - Lateralus.mp3",
         "image": "images/covers/c8bd981a4c3236293f6b9a2f47c13012.jpg"
+      }
+    ]
+  },
+  {
+    "artist": "Korn",
+    "songs": [
+      {
+        "title": "Blind",
+        "audioUrl": "music/01 - Korn - Blind.mp3",
+        "image": "images/covers/kornselftitled.png"
+      },
+      {
+        "title": "Falling Away from Me",
+        "audioUrl": "music/02 - Korn - Falling Away from Me.mp3",
+        "image": "images/covers/8473d5eb4f12b8c824c9b9722e0db2d5.jpg"
+      },
+      {
+        "title": "Freak On a Leash",
+        "audioUrl": "music/02 - Korn - Freak On a Leash.mp3",
+        "image": "images/covers/8d197cc31d6a332bcad46e44d8a43807.jpg"
+      },
+      {
+        "title": "Got the Life",
+        "audioUrl": "music/03 - Korn - Got the Life.mp3",
+        "image": "images/covers/8d197cc31d6a332bcad46e44d8a43807.jpg"
+      },
+      {
+        "title": "Need To",
+        "audioUrl": "music/03 - Korn - Need To.mp3",
+        "image": "images/covers/kornselftitled.png"
+      },
+      {
+        "title": "Make Me Bad",
+        "audioUrl": "music/06 - Korn - Make Me Bad.mp3",
+        "image": "images/covers/8473d5eb4f12b8c824c9b9722e0db2d5.jpg"
+      },
+      {
+        "title": "Predictable",
+        "audioUrl": "music/08 - Korn - Predictable.mp3",
+        "image": "images/covers/kornselftitled.png"
+      },
+      {
+        "title": "Fake",
+        "audioUrl": "music/09 - Korn - Fake.mp3",
+        "image": "images/covers/kornselftitled.png"
+      },
+      {
+        "title": "A.D.I.D.A.S.",
+        "audioUrl": "music/11 - Korn - A.D.I.D.A.S..mp3",
+        "image": "images/covers/342d52859f70668c934a4bd336ae9e03.jpg"
+      }
+    ]
+  },
+  {
+    "artist": "The Offspring",
+    "songs": [
+      {
+        "title": "The Meaning Of Life",
+        "audioUrl": "music/02 - The Offspring - The Meaning Of Life.mp3",
+        "image": "images/covers/f3eddc3624475b0e47d3091f809c85a0.jpg"
+      },
+      {
+        "title": "Bad Habit",
+        "audioUrl": "music/03 - The Offspring - Bad Habit.mp3",
+        "image": "images/covers/offspring-smash-lp-a__79856.jpg"
+      },
+      {
+        "title": "Mota",
+        "audioUrl": "music/03 - The Offspring - Mota.mp3",
+        "image": "images/covers/f3eddc3624475b0e47d3091f809c85a0.jpg"
+      },
+      {
+        "title": "Pretty Fly (For A White Guy)",
+        "audioUrl": "music/04 - The Offspring - Pretty Fly (For A White Guy).mp3",
+        "image": "images/covers/b2c93e4bd3235a53c33e93d96c06899e.jpg"
+      },
+      {
+        "title": "Come Out and Play",
+        "audioUrl": "music/07 - The Offspring - Come Out and Play.mp3",
+        "image": "images/covers/offspring-smash-lp-a__79856.jpg"
+      },
+      {
+        "title": "Gone Away (1997)",
+        "audioUrl": "music/07 - The Offspring - Gone Away (1997).mp3",
+        "image": "images/covers/f3eddc3624475b0e47d3091f809c85a0.jpg"
+      },
+      {
+        "title": "Self Esteem",
+        "audioUrl": "music/08 - The Offspring - Self Esteem.mp3",
+        "image": "images/covers/offspring-smash-lp-a__79856.jpg"
+      },
+      {
+        "title": "All I Want",
+        "audioUrl": "music/10 - The Offspring - All I Want.mp3",
+        "image": "images/covers/f3eddc3624475b0e47d3091f809c85a0.jpg"
+      },
+      {
+        "title": "No Brakes",
+        "audioUrl": "music/10 - The Offspring - No Brakes.mp3",
+        "image": "images/covers/b2c93e4bd3235a53c33e93d96c06899e.jpg"
       }
     ]
   },
@@ -405,14 +510,82 @@
     ]
   },
   {
-    "artist": "Other",
+    "artist": "Incubus",
     "songs": [
       {
-        "title": "Trey\u2019s Song (feat. H.R.)",
-        "audioUrl": "music/10 - Sublime - Trey\u2019s Song (feat. H.R.).mp3",
-        "image": "images/covers/54b813448d1f9fb5b03011f2b90d52e7.jpg",
-        "originalArtist": "Sublime; H.R."
+        "title": "New Skin",
+        "audioUrl": "music/03 - Incubus - New Skin.mp3",
+        "image": "images/covers/0729c4f025d5b07fec3b22ffaa8f4063.jpg"
+      },
+      {
+        "title": "Glass",
+        "audioUrl": "music/05 - Incubus - Glass.mp3",
+        "image": "images/covers/0729c4f025d5b07fec3b22ffaa8f4063.jpg"
+      },
+      {
+        "title": "A Certain Shade of Green",
+        "audioUrl": "music/07 - Incubus - A Certain Shade of Green.mp3",
+        "image": "images/covers/0729c4f025d5b07fec3b22ffaa8f4063.jpg"
+      },
+      {
+        "title": "Favorite Things",
+        "audioUrl": "music/08 - Incubus - Favorite Things.mp3",
+        "image": "images/covers/0729c4f025d5b07fec3b22ffaa8f4063.jpg"
+      },
+      {
+        "title": "Deep Inside",
+        "audioUrl": "music/11 - Incubus - Deep Inside.mp3",
+        "image": "images/covers/0729c4f025d5b07fec3b22ffaa8f4063.jpg"
       }
+    ]
+  },
+  {
+    "artist": "System Of A Down",
+    "songs": [
+      {
+        "title": "Deer Dance",
+        "audioUrl": "music/03 - System Of A Down - Deer Dance.mp3",
+        "image": "images/covers/soadtox.jpg"
+      },
+      {
+        "title": "Chop Suey!",
+        "audioUrl": "music/06 - System Of A Down - Chop Suey!.mp3",
+        "image": "images/covers/soadtox.jpg"
+      },
+      {
+        "title": "Toxicity",
+        "audioUrl": "music/12 - System Of A Down - Toxicity.mp3",
+        "image": "images/covers/soadtox.jpg"
+      },
+      {
+        "title": "Aerials",
+        "audioUrl": "music/14 - System Of A Down - Aerials.mp3",
+        "image": "images/covers/soadtox.jpg"
+      }
+    ]
+  },
+  {
+    "artist": "SlipKnot",
+    "songs": [
+      {
+        "title": "Eyeless",
+        "audioUrl": "music/03 - Slipknot - Eyeless.mp3",
+        "image": "images/covers/f57a1fa72311f050a97de498751af945.jpg",
+        "originalArtist": "Slipknot"
+      },
+      {
+        "title": "Wait and Bleed",
+        "audioUrl": "music/04 - Slipknot - Wait and Bleed.mp3",
+        "image": "images/covers/f57a1fa72311f050a97de498751af945.jpg",
+        "originalArtist": "Slipknot"
+      },
+      {
+        "title": "No Life",
+        "audioUrl": "music/11 - Slipknot - No Life.mp3",
+        "image": "images/covers/f57a1fa72311f050a97de498751af945.jpg",
+        "originalArtist": "Slipknot"
+      }
+
     ]
   }
 ]
